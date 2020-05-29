@@ -4,6 +4,10 @@
     --vertical-margin: 1.2rem;
 }
 
+body, #root, #top-root-row {
+    height: 100vh;
+}
+
 
 .left-col-group {
     background-color: var(--gray);

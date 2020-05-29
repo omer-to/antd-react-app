@@ -14,7 +14,7 @@ const Posts = () => {
         <div className="posts">
         {
             [...new Array(bottomContentHeaders.length)].map((item,index) => (
-                <Post header = {bottomContentHeaders[index]} paragraph = {bottomContentParagraphs[index]}/>
+                <Post header = {bottomContentHeaders[index]} paragraph = {bottomContentParagraphs[index]} key={index}/>
             ))
         }
         </div>

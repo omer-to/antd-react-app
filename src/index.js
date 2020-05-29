@@ -15,7 +15,7 @@ class App extends Component {
     render() {
         return (            
                    
-                        <Row>
+                        <Row id="top-root-row">
                             <Col span = {16} className ="left-col-group">
                                 <Navigation />                                
                                 <MainContent />                                
