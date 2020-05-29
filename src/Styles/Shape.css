@@ -1,0 +1,49 @@
+
+.shapes {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0 -3em 3em rgba(255,255,255,0.9),
+          0.3em 0.3em 1em rgba(0,0,0,0.15);
+}
+
+.shapes__large {
+    height: 10.125rem;
+    width: 16.2rem;
+
+    top: 1rem;
+    left: 9.742rem;
+}
+
+.shapes__square {
+    height: 8.1rem;
+    width: 8.1rem;
+
+    top: 7.4rem;
+    left: 21.892rem;
+}
+
+.shapes__small-top {
+    height: 1.35rem;
+    width: 8.1rem;
+
+    top: 7.4rem;
+    left: 7.042rem;
+}
+
+.shapes__small-middle {
+    height: 1.35rem;
+    width: 8.1rem;
+
+    top: 10.3rem;
+    left: 5.422rem;
+}
+
+.shapes__small-bottom {
+    height: 1.35rem;
+    width: 8.1rem;
+
+    top: 12.8rem;
+    left: 5.422rem;
+}

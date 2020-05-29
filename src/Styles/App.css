@@ -1,0 +1,16 @@
+:root {
+    --gray: rgb(245, 245, 245);
+    --darker-gray: rgb(70, 70, 70);
+    --vertical-margin: 1.2rem;
+}
+
+
+.left-col-group {
+    background-color: var(--gray);
+    color: var(--darker-gray);
+    
+}
+
+.right-col-group {
+    background-color: #ffffff;
+}

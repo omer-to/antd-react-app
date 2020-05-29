@@ -1,0 +1,25 @@
+.header {
+    font-size: 3rem !important; 
+    font-weight: 300 !important;
+    letter-spacing: 0.1rem;
+}
+
+/* In order to ensure that there is a line-break before the text "in" just as in the case of the screenshot provided */
+.header > span::before {
+    content: "\A";
+    white-space: pre;
+}
+
+/* For the "Desinger" text */
+.header-in-bold {
+    font-weight: 700;
+}
+
+/* Again following the screenshot for line breaks in the paragraph, might simply use <pre> element in the JSX as well */
+.paragraph {
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 13rem;
+    white-space: normal;
+    word-break: break-word;
+}

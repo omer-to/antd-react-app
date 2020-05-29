@@ -1,0 +1,13 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: var(--vertical-margin);
+    margin-bottom: var(--vertical-margin);
+    
+}
+
+.navigation-link {
+    color: var(--darker-gray) !important;
+    font-weight: 600;
+}

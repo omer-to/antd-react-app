@@ -1,0 +1,34 @@
+.form-signin {
+    margin-top: calc(var(--vertical-margin) * 4.66) !important;
+
+}
+
+/* For wrapping div of:
+    Sign In
+    Sign Up
+ */
+.form__top-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;   
+}
+
+
+/* For button:
+    Sign Up link-like button
+*/
+
+.form__top-row__signup{
+    align-self: flex-end;
+    font-size: 0.9rem;
+}
+
+/* For wrapping div of:
+    Forgot Password link-like button
+    Sign In button
+*/
+
+.form__bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
